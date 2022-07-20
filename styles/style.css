@@ -13,10 +13,12 @@ html,
 body {
   /* overflow-x: hidden; */
 }
+
 a {
   display: inline-block;
   text-decoration: none;
 }
+
 body {
   padding: 0;
   margin: 0;
@@ -50,11 +52,12 @@ body {
 .banner {
   width: 50%;
 }
+
 .banner {
   display: flex;
 }
-.player {
-}
+
+.player {}
 
 .total-top {
   display: flex;
@@ -111,6 +114,7 @@ button {
 .blog-section {
   display: flex;
 }
+
 /* For box-1  */
 .form {
   display: flex;
@@ -120,6 +124,7 @@ button {
   border-radius: 15px;
   padding: 15px 20px;
 }
+
 .form a {
   width: 100%;
 }
@@ -186,15 +191,18 @@ button {
   margin: 20px;
   margin-top: 0px;
 }
+
 .course-info p {
   margin-bottom: 10px;
   font-weight: 600;
   line-height: 22px;
 }
+
 .course-info a {
   margin-right: 20px;
   color: #161616;
 }
+
 /* style for Match Layout  */
 .container-two {
   display: flex;
@@ -237,10 +245,12 @@ button {
   border-radius: 10px;
   padding: 25px;
 }
+
 .single-match h2 {
   font-size: 20px;
   margin: 8px 0;
 }
+
 .last-button {
   display: flex;
   justify-content: center;
@@ -256,6 +266,7 @@ footer {
   padding: 130px 140px;
   text-align: center;
 }
+
 .footer-title {
   color: white;
   font-size: 50px;
@@ -269,24 +280,29 @@ footer nav {
   flex-wrap: wrap;
   justify-content: center;
 }
+
 .footer-menu {
   text-decoration: none;
   color: aliceblue;
   font-size: small;
   margin: 1rem;
 }
-.footer-social-icon {
-}
+
+.footer-social-icon {}
 
 .footer-social-icon a {
-    color: #000;
-    padding: 10px;
-    background: #fff;
-    border-radius: 34px;
-    width: 35px;
-    height: 35px;
-    font-size: 17px;
-    line-height: 0px;
+  color: #000;
+  padding: 10px;
+  background: #fff;
+  border-radius: 34px;
+  width: 35px;
+  height: 35px;
+  font-size: 17px;
+  line-height: 0px;
+}
+
+.tablet-device-show {
+  display: none;
 }
 
 /* Responsive css started  */
@@ -297,29 +313,35 @@ footer nav {
   .container {
     width: 100%;
   }
+
   .text-tittle {
     width: 350px;
     font-size: 40px;
     line-height: 46px;
     margin-bottom: 20px;
   }
+
   .paragraph-text {
     font-size: 12px;
     color: #fff;
   }
+
   .blog-section {
     display: flex;
     flex-direction: column;
   }
+
   .form {
     flex-direction: row;
     background: transparent;
     justify-content: space-between;
     margin-bottom: 25px;
   }
+
   .form a {
     margin: 0 7px;
   }
+
   .form input {
     margin: 0;
     background: #ffffff;
@@ -329,15 +351,26 @@ footer nav {
     display: block;
     font-size: 20px;
   }
+
   .courses {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 31px;
     row-gap: 28px;
   }
+
   .device-hide {
     display: none;
   }
+
+  .tablet-device-show {
+    display: block;
+  }
+  .last-button{
+    display: flex;
+    justify-content: center;
+  }
+  
 }
 
 /* Mobile device */
@@ -346,18 +379,22 @@ footer nav {
   .container {
     width: 100%;
   }
+
   .first-first {
     flex-direction: column;
     padding: 40px 20px 0px 20px;
   }
+
   .Text {
     margin-bottom: 30px;
   }
+
   .Text,
   .banner {
     width: 100%;
     text-align: center;
   }
+
   .text-tittle {
     width: 100%;
     font-size: 24px;
@@ -365,18 +402,22 @@ footer nav {
     margin-bottom: 20px;
     text-align: center;
   }
+
   .paragraph-text {
     font-size: 12px;
     color: #fff;
     text-align: center;
     text-overflow: ellipsis;
   }
+
   .form {
     flex-direction: column;
   }
+
   .form a {
     margin: 12px 0px;
   }
+
   .courses {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -384,17 +425,21 @@ footer nav {
     row-gap: 28px;
     margin: 0;
   }
+
   footer {
     padding: 100px 60px;
   }
+
   footer nav {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
   }
-  .mobile-device-hide {
+
+  .tablet-device-show {
     display: none;
   }
+
   .mb {
     margin-bottom: 80px;
   }
